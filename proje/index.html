@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proje</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="menu1">
+            <h1>LOGO</h1>
+            <hr color="white">
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Faaliyetler</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <h1>KAYIT FORMU</h1>
+            <br>
+            <form action="php.php">
+                <input type="text" name="isim" placeholder="İsminizi Giriniz" class="textbox">
+                <input type="text" name="soyisim" placeholder="Soyisim Giriniz" class="textbox">
+                <br><br>
+                <input type="email" name="email" placeholder="Email Giriniz" class="textbox">
+
+                <input type="text" name="telefon" placeholder="Telefon No Giriniz" class="textbox">
+                <br><br>
+                <select name="ulke" class="textbox">
+                    <option value="ulkeSecimi">Ülke Seçiniz</option>
+                    <option value="america">Amerika</option>
+                    <option value="turkey">Türkiye</option>
+                    <option value="brasil">Brazilya</option>
+                    <option value="french">Fransa</option>
+                    <option value="china">Çin</option>
+                </select>
+
+                <select name="ulke" class="textbox">
+                    <option value="sehir">Şehir Seçiniz</option>
+                    <option value="sehir1">Sehir 1</option>
+                    <option value="sehir2">Sehir 2</option>
+                    <option value="sehir3">Sehir 3</option>
+                    <option value="sehir4">Sehir 4</option>
+                </select>
+
+                <br><br>
+
+                Bay <input type="radio" name="cinsiyet">
+                Bayan <input type="radio" name="cinsiyet">
+                <br><br>
+                <input type="checkbox" name="sozlesme" required> Gizlilik Politikası
+                <input type="reset" value="Sıfırla" class="btn">
+                <input type="submit" value="Kayıt" class="btn">
+            </form>
+        </div>
+
+        <div class="menu2">
+            <h1>LOGO</h1>
+            <hr color="white">
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Faaliyetler</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

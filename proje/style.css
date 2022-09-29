@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-bottom: 10px;
+}
+.menu1{
+    width: 20%;
+    height: 100%;
+    background-color: #222;
+    color: #aaa;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+}
+.menu1 li{
+    list-style: none;
+    margin: 10px;
+}
+.menu1 li a{
+    text-decoration: none;
+    color: white;
+}
+.menu1 li a:hover{
+    color: #aaa;
+}
+.content{
+    width: 60%;
+    margin-left: 20%;
+    padding: 15px;
+    background-color: rgb(77, 81, 99);
+    text-align: center;
+}
+.menu2{
+    height: 100%;
+    width: 20%; 
+    position: fixed;
+    background-color: #222;
+    color: #aaa;
+    margin-left: 80%;
+    text-align: center;
+    padding: 10px;
+}
+.menu2 li{
+    list-style: none;
+    margin: 10px;
+}
+.menu2 li a{
+    text-decoration: none;
+    color: white;
+}
+.menu2 li a:hover{
+    color: #aaa;
+}
+
+.textbox{
+    margin: 10px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    padding: 5px;
+}
+.textbox:hover{
+    background-color: #aaa;
+}
+
+.btn{
+    border: 1px solid #222;
+    border-radius: 6px;
+    margin: 4px 0px 4px 13px;
+    padding: 5px;
+    background-color: #ddd;
+}
+.btn:hover{
+    background-color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
